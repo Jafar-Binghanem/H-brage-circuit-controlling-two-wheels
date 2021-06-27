@@ -1,6 +1,5 @@
 # H-brage-circuit-controlling two-wheels
-
-# An-Arduino-circuit-controlling-5-Servo-motor  
+  
 **Task 1** An Arduino circuit controlling 2 brushless dc motor (2 wheels) simulated in TinkerCad (circuit and code)    
   
    **A. The code**  
