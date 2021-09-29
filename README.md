@@ -24,9 +24,11 @@ void loop()
 {
   int potValue=analogRead(A0); // to read the potentmetr value
   int pwmEn=map(potValue,0,1023,0,255);
+    //Arduino has an analogRead range from 0 to 1023, 
+  //and an analogWrite range only from 0 to 255
    analogWrite(11,pwmEn); // we send the pwm to the en pins
-   analogWrite(6,pwmEn);  
-   
+   analogWrite(6,pwmEn); //the en pins control the speed of motor
+   // if it was high, the speed increases, low decreases
   
 
     if (digitalRead(13)==HIGH)
